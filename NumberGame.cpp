@@ -30,7 +30,7 @@ bool PlayGame(int Difficulty)
     std::cout << " - They mulitply together to " << CodeProduct << "\n";
 
     int GuessA, GuessB, GuessC;
-    std::cout << "Enter your guess...\n";
+    std::cout << "Enter each pin code seperated by a <space>...\n";
     std::cin >> GuessA >> GuessB >> GuessC;
 
     int GuessSum = GuessA + GuessB + GuessC;
@@ -81,7 +81,7 @@ int main ()
         
     }
     
-    std::cout << "Congratz. You've fleeced those suckers for everything they have...";
+    std::cout << "\n\nCongratz. You've fleeced those suckers for everything they have...\n\n";
 
     return 0;
 }
